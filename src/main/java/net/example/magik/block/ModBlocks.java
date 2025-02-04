@@ -17,14 +17,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Magik.MOD_ID);
 
-
-    public static final RegistryObject<Block> MAGI_BLOCK = registerBlock("magiblock",
+    public static final RegistryObject<Block> MAGI_BLOCK = registerBlock("magi_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops()));
 
 
-
-    private static <T extends Block> RegistryObject<T> registerBlock(final String name, final Supplier<T> block) {
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;

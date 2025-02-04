@@ -32,6 +32,7 @@ public class Magik {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModitemGroup.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
@@ -79,10 +80,11 @@ public class Magik {
              event.accept(ModItems.MAGIWOOD);
     }
     if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept(ModItems.MAGIORE);}
-         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+             event.accept(ModItems.MAGIORE);
+    }
+    if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
              event.accept(ModBlocks.MAGI_BLOCK);
-         }
+    }
 
      }
 

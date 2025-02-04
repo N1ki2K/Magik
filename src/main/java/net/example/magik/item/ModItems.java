@@ -14,7 +14,7 @@ public class ModItems {
     public static final RegistryObject<Item> MAGICWAND = ITEMS.register("magicwand",
     () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> MIDMAGICWAND = ITEMS.register("midmagicwand.json",
+    public static final RegistryObject<Item> MIDMAGICWAND = ITEMS.register("midmagicwand",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> HIGHMAGICWAND = ITEMS.register("highmagicwand",
