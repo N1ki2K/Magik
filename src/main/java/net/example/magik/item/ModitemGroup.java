@@ -3,7 +3,6 @@ import net.example.magik.Magik;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +21,13 @@ public class ModitemGroup {
                         output.accept(ModItems.HIGHMAGICWAND.get());
                         output.accept(ModItems.ENCHANTEDWOOL.get());
                         output.accept(ModItems.MAGIBOOK.get());
+                        output.accept(ModItems.MAGIHELM.get());
+                        output.accept(ModItems.MAGICHESTPLATE.get());
+                        output.accept(ModItems.MAGIPANTS.get());
+                        output.accept(ModItems.MAGIBOOTS.get());
+                        output.accept(ModItems.MAGIORE.get());
+                        output.accept(ModItems.MAGIWOOD .get());
+
                     }).build());
 
     public static void register(IEventBus eventBus){

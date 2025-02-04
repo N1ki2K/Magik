@@ -1,7 +1,6 @@
 package net.example.magik.item;
 
 import net.example.magik.Magik;
-import net.minecraft.references.Items;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,7 +29,7 @@ public class ModItems {
     public static final RegistryObject<Item> MAGIBOOK = ITEMS.register("magibook",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> MAGICHELM = ITEMS.register("magihelm",
+    public static final RegistryObject<Item> MAGIHELM = ITEMS.register("magihelm",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MAGICHESTPLATE = ITEMS.register("magichestplate",
@@ -40,6 +39,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MAGIBOOTS = ITEMS.register("magiboots",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGIORE = ITEMS.register("magiore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGIWOOD = ITEMS.register("magiwood",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

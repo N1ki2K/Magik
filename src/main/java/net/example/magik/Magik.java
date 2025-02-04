@@ -54,7 +54,7 @@ public class Magik {
              event.accept((ModItems.MAGIBOOK));
     }
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
-             event.accept((ModItems.MAGICHELM));
+             event.accept((ModItems.MAGIHELM));
     }
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
              event.accept((ModItems.MAGICHESTPLATE));
@@ -65,6 +65,12 @@ public class Magik {
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
              event.accept((ModItems.MAGIBOOTS));
     }
+
+    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+             event.accept((ModItems.MAGIWOOD));
+    }
+    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+             event.accept((ModItems.MAGIORE));}
     }
 
     @SubscribeEvent
