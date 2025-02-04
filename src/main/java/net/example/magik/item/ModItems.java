@@ -47,6 +47,13 @@ public class ModItems {
     public static final RegistryObject<Item> MAGIWOOD = ITEMS.register("magiwood",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> MAGICESSENCE = ITEMS.register("magicessence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGICINGOT = ITEMS.register("magicingot",
+            () -> new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

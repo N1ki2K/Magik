@@ -1,0 +1,6 @@
+{
+  "parent": "minecyaft:block/cube_all",
+  "textures": {
+    "all": "magik:block/magiblock"
+  }
+}

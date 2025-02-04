@@ -1,6 +1,7 @@
 package net.example.magik;
 
 import com.mojang.logging.LogUtils;
+import net.example.magik.block.ModBlocks;
 import net.example.magik.item.ModItems;
 import net.example.magik.item.ModitemGroup;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -10,7 +11,9 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -25,9 +28,15 @@ public class Magik {
     public Magik(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
         modEventBus.addListener(this::commonSetup);
-        ModitemGroup.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModitemGroup.register(modEventBus);
         ModItems.register(modEventBus);
+
+        modEventBus.addListener(this::addCreative);
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -45,33 +54,37 @@ public class Magik {
             event.accept(ModItems.HIGHMAGICWAND);
     }
     if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept((ModItems.MAGICORE));
+            event.accept(ModItems.MAGICORE);
     }
     if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept((ModItems.ENCHANTEDWOOL));
+            event.accept(ModItems.ENCHANTEDWOOL);
     }
     if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept((ModItems.MAGIBOOK));
+             event.accept(ModItems.MAGIBOOK);
     }
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
-             event.accept((ModItems.MAGIHELM));
+             event.accept(ModItems.MAGIHELM);
     }
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
-             event.accept((ModItems.MAGICHESTPLATE));
+             event.accept(ModItems.MAGICHESTPLATE);
     }
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
-             event.accept((ModItems.MAGIPANTS));
+             event.accept(ModItems.MAGIPANTS);
     }
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
-             event.accept((ModItems.MAGIBOOTS));
+             event.accept(ModItems.MAGIBOOTS);
     }
 
     if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept((ModItems.MAGIWOOD));
+             event.accept(ModItems.MAGIWOOD);
     }
     if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept((ModItems.MAGIORE));}
-    }
+             event.accept(ModItems.MAGIORE);}
+         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+             event.accept(ModBlocks.MAGI_BLOCK);
+         }
+
+     }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {

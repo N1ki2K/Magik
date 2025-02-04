@@ -1,5 +1,6 @@
 package net.example.magik.item;
 import net.example.magik.Magik;
+import net.example.magik.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -12,7 +13,7 @@ public class ModitemGroup {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
     DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Magik.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> wandTest = CREATIVE_MODE_TABS.register("magicwand_items_tab",
+    public static final RegistryObject<CreativeModeTab> wandTest = CREATIVE_MODE_TABS.register("Magik",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MAGICWAND.get()))
                     .title(Component.translatable("creativetab.magik.magicwand_items"))
                     .displayItems((itemDisplayParameters, output) -> {
@@ -27,6 +28,7 @@ public class ModitemGroup {
                         output.accept(ModItems.MAGIBOOTS.get());
                         output.accept(ModItems.MAGIORE.get());
                         output.accept(ModItems.MAGIWOOD .get());
+                        output.accept(ModBlocks.MAGI_BLOCK.get());
 
                     }).build());
 
