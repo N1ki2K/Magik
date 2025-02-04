@@ -1,4 +1,5 @@
 package net.example.magik.item;
+import net.example.magik.Magik;
 import net.example.magik.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

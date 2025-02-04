@@ -1,5 +1,6 @@
 package net.example.magik.block;
 
+import net.example.magik.Magik;
 import net.example.magik.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

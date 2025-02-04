@@ -1,5 +1,6 @@
 package net.example.magik.item;
 
+import net.example.magik.Magik;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
