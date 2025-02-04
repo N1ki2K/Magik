@@ -45,33 +45,6 @@ public class Magik {
     }
 
      void addCreative(BuildCreativeModeTabContentsEvent event) {
-    if(event.getTabKey() == CreativeModeTabs.COMBAT){
-        event.accept(ModItems.MAGICWAND);
-    }
-    if (event.getTabKey() == CreativeModeTabs.COMBAT){
-        event.accept(ModItems.MIDMAGICWAND);
-    }
-    if (event.getTabKey() == CreativeModeTabs.COMBAT){
-            event.accept(ModItems.HIGHMAGICWAND);
-    }
-    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.MAGICORE);
-    }
-    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.ENCHANTEDWOOL);
-    }
-    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept(ModItems.MAGIBOOK);
-    }
-    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept(ModItems.MAGIWOOD);
-    }
-    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-             event.accept(ModItems.MAGIORE);
-    }
-    if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-             event.accept(ModBlocks.MAGI_BLOCK);
-    }
 
      }
 

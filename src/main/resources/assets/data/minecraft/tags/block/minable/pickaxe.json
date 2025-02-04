@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "magik:magi_block",
+    "magik:raw_magi_block",
+    "magik:magi_ore",
+    "magik:magi_deepslate_ore"
+  ]
+}
