@@ -4,13 +4,18 @@
   "item.magik.highmagicwand": "Expert Magic Wand",
   "item.magik.magicore": "Magi Core",
   "item.magik.enchantedwool": "Enchanted Wool",
-  "item.magik.magihelm": "Magic Helmet",
-  "item.magik.magichestplate": "Magic Chestplate",
-  "item.magik.magicpants": "Magic Legings",
-  "item.magik.magicboots": "Magic Boots",
   "item.magik.magiore": "Magic Ore",
   "item.magik.magiwood": "Magic Wood",
 
-  "block.magik.magi_block": "Magi Block"
+
+
+  "block.magik.magi_block": "Magi Block",
+
+
+
+  "item.magik.magihelm": "Magic Helmet",
+  "item.magik.magichestplate": "Magic Chestplate",
+  "item.magik.magicpants": "Magic Legings",
+  "item.magik.magicboots": "Magic Boots"
 }
 
