@@ -44,6 +44,27 @@ public class Magik {
     if (event.getTabKey() == CreativeModeTabs.COMBAT){
             event.accept(ModItems.HIGHMAGICWAND);
     }
+    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept((ModItems.MAGICORE));
+    }
+    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept((ModItems.ENCHANTEDWOOL));
+    }
+    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+             event.accept((ModItems.MAGIBOOK));
+    }
+    if (event.getTabKey() == CreativeModeTabs.COMBAT){
+             event.accept((ModItems.MAGICHELM));
+    }
+    if (event.getTabKey() == CreativeModeTabs.COMBAT){
+             event.accept((ModItems.MAGICHESTPLATE));
+    }
+    if (event.getTabKey() == CreativeModeTabs.COMBAT){
+             event.accept((ModItems.MAGIPANTS));
+    }
+    if (event.getTabKey() == CreativeModeTabs.COMBAT){
+             event.accept((ModItems.MAGIBOOTS));
+    }
     }
 
     @SubscribeEvent

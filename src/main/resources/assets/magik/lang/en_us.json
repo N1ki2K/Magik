@@ -1,6 +1,12 @@
 {
   "item.magik.magicwand": "Begnner Magic Wand",
   "item.magik.midmagicwand": "Advanced Magic Wand",
-  "item.magik.highmagicwand": "Expert Magic Wand"
+  "item.magik.highmagicwand": "Expert Magic Wand",
+  "item.magik.magicore": "Magi Core",
+  "item.magik.enchantedwool": "Enchanted Wool",
+  "item.magik.magihelm": "Magic Helmet",
+  "item.magik.magichestplate": "Magic Chestplate",
+  "item.magik.magicpants": "Magic Legings",
+  "item.magik.magicboots": "Magic Boots"
 }
 

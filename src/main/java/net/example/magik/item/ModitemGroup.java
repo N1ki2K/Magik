@@ -20,6 +20,8 @@ public class ModitemGroup {
                         output.accept(ModItems.MAGICWAND.get());
                         output.accept(ModItems.MIDMAGICWAND.get());
                         output.accept(ModItems.HIGHMAGICWAND.get());
+                        output.accept(ModItems.ENCHANTEDWOOL.get());
+                        output.accept(ModItems.MAGIBOOK.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

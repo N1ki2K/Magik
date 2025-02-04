@@ -21,6 +21,27 @@ public class ModItems {
     public static final RegistryObject<Item> HIGHMAGICWAND = ITEMS.register("highmagicwand",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> MAGICORE = ITEMS.register("magicore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ENCHANTEDWOOL = ITEMS.register("enchantedwool",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGIBOOK = ITEMS.register("magibook",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGICHELM = ITEMS.register("magihelm",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGICHESTPLATE = ITEMS.register("magichestplate",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGIPANTS = ITEMS.register("magipants",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGIBOOTS = ITEMS.register("magiboots",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
