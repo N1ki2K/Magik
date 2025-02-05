@@ -23,11 +23,12 @@ public class ModitemGroup {
                         output.accept(ModItems.ENCHANTEDWOOL.get());
                         output.accept(ModItems.MAGIBOOK.get());
                         output.accept(ModItems.MAGIORE.get());
+                        output.accept(ModItems.MAGICORE.get());
                         output.accept(ModItems.MAGIWOOD.get());
                         output.accept(ModItems.MAGICESSENCE.get());
                         output.accept(ModItems.MAGICINGOT.get());
                         output.accept(ModItems.RAWMAGI.get());
-                        output.accept(ModItems.MAGIC_WAND.get());
+//                      output.accept(ModItems.MAGIC_WAND.get());
 
 
                         output.accept(ModBlocks.MAGI_BLOCK.get());
