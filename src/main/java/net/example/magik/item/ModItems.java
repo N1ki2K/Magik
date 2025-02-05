@@ -1,6 +1,7 @@
 package net.example.magik.item;
 
 import net.example.magik.Magik;
+//import net.example.magik.item.Custom.BeginnerMagicWandItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,6 +44,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAWMAGI = ITEMS.register("raw_magi",
             () -> new Item(new Item.Properties()));
+//    public static final RegistryObject<Item> MAGIC_WAND = ITEMS.register("magic_wand",
+//            () -> new BeginnerMagicWandItem(new Item.Properties().stacksTo(1)));
+
 
 
 
