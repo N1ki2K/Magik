@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magi_deepslate_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "magik:magi_deepslate_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "magik:magicingot_from_smelting_magi_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magi_deepslate_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "magik:magicingot_from_smelting_magi_deepslate_ore"
+    ]
+  }
+}

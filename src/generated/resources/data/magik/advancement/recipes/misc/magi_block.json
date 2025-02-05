@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magicingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "magik:magicingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "magik:magi_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magicingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "magik:magi_block"
+    ]
+  }
+}
