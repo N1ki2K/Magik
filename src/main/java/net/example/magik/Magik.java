@@ -34,7 +34,6 @@ public class Magik {
         ModitemGroup.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
-        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

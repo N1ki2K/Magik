@@ -19,7 +19,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 //    blockWithItem(ModBlocks.RAW_MAGI_BLOCK);
 
     blockWithItem(ModBlocks.MAGI_ORE);
-//    blockWithItem(ModBlocks.RAW_MAGI_BLOCK);
+    blockWithItem(ModBlocks.MAGI_DEEPSLATE_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

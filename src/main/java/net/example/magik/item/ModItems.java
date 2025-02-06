@@ -47,16 +47,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
-
-//    public static final RegistryObject<Item> MAGICWAND = ITEMS.register("magicwand",
-//    () -> new Item(new Item.Properties().stacksTo(1)));
-
-    //    public static final RegistryObject<Item> MIDMAGICWAND = ITEMS.register("midmagicwand",
-//            () -> new Item(new Item.Properties()));
-//
-//    public static final RegistryObject<Item> HIGHMAGICWAND = ITEMS.register("highmagicwand",
-//            () -> new Item(new Item.Properties()));
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
