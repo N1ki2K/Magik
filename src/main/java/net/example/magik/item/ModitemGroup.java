@@ -14,12 +14,12 @@ public class ModitemGroup {
     DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Magik.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> wandTest = CREATIVE_MODE_TABS.register("magik",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MAGICWAND.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MAGIC_WAND.get()))
                     .title(Component.translatable("creativetab.magik.magicwand_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.MAGICWAND.get());
-                        output.accept(ModItems.MIDMAGICWAND.get());
-                        output.accept(ModItems.HIGHMAGICWAND.get());
+                        output.accept(ModItems.MAGIC_WAND.get());
+                        output.accept(ModItems.MID_MAGIC_WAND.get());
+                        output.accept(ModItems.HIGH_MAGIC_WAND.get());
                         output.accept(ModItems.ENCHANTEDWOOL.get());
                         output.accept(ModItems.MAGIBOOK.get());
                         output.accept(ModItems.MAGIORE.get());
@@ -28,7 +28,9 @@ public class ModitemGroup {
                         output.accept(ModItems.MAGICESSENCE.get());
                         output.accept(ModItems.MAGICINGOT.get());
                         output.accept(ModItems.RAWMAGI.get());
-//                      output.accept(ModItems.MAGIC_WAND.get());
+//                        output.accept(ModItems.MAGICWAND.get());
+//                        output.accept(ModItems.MIDMAGICWAND.get());
+//                        output.accept(ModItems.HIGHMAGICWAND.get());
 
 
                         output.accept(ModBlocks.MAGI_BLOCK.get());

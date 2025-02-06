@@ -1,4 +1,5 @@
-// 1.21.1	2025-02-05T12:22:11.3750005	Recipes
+// 1.21.1	2025-02-06T11:15:42.2180445	Recipes
+6d72c2cacc943d104f409b08953e246a57fbee3a data/magik/advancement/recipes/misc/beginner_magic_wand.json
 e8c99d7e8fec3f67f48df283b6539f788e7a4b51 data/magik/advancement/recipes/misc/magicingot.json
 fcbdf3381e15c9d04b9e44255bfdde74a319c7de data/magik/advancement/recipes/misc/magicingot_from_blasting_magi_deepslate_ore.json
 979fa20ca40621e637806d6607a49d8a8e825b98 data/magik/advancement/recipes/misc/magicingot_from_blasting_magi_ore.json
@@ -7,6 +8,7 @@ fcbdf3381e15c9d04b9e44255bfdde74a319c7de data/magik/advancement/recipes/misc/mag
 97237844dcfff56399987750c6e2c9391425dbde data/magik/advancement/recipes/misc/magicingot_from_smelting_magi_ore.json
 b5b77aad1f0d5534463735903f477c6d01691bc3 data/magik/advancement/recipes/misc/magicingot_from_smelting_raw_magi.json
 559e7ce60eb6623fb580479c39fb2b68db9028a6 data/magik/advancement/recipes/misc/magi_block.json
+c606851c33be31b0c4b06af54cbe3d9bd450095a data/magik/recipe/beginner_magic_wand.json
 2f2825e65f0ca005a1600a0f67c320403422c090 data/magik/recipe/magicingot.json
 61101af81555e89077f85dff54afcbf569d76de4 data/magik/recipe/magicingot_from_blasting_magi_deepslate_ore.json
 55bc58e55340be56e26fcce6eaf7d5a3b2837b41 data/magik/recipe/magicingot_from_blasting_magi_ore.json

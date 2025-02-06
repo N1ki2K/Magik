@@ -6,6 +6,9 @@ import net.example.magik.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.entity.vehicle.Minecart;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -27,6 +30,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', ModItems.MAGICINGOT.get())
                 .unlockedBy(getHasName(ModItems.MAGICINGOT.get()), has(ModItems.MAGICINGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MAGIC_WAND.get())
+                .pattern("ACA")
+                .pattern("DBD")
+                .pattern(" B ")
+                .define('A', ModItems.MAGICINGOT.get())
+                .define('B', ModItems.MAGIWOOD.get())
+                .define('C', Items.AMETHYST_SHARD)
+                .define('D', Items.GOLD_INGOT)
+                .unlockedBy(getHasName(ModItems.MAGICINGOT.get()), has(ModItems.MAGICINGOT.get())).save(pRecipeOutput);
+
+
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MAGICINGOT.get(),9)

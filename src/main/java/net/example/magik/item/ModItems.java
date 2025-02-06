@@ -1,7 +1,7 @@
 package net.example.magik.item;
 
 import net.example.magik.Magik;
-//import net.example.magik.item.Custom.BeginnerMagicWandItem;
+import net.example.magik.item.Custom.BeginnerMagicWandItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,14 +12,15 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Magik.MOD_ID);
 
-    public static final RegistryObject<Item> MAGICWAND = ITEMS.register("magicwand",
-    () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> MIDMAGICWAND = ITEMS.register("midmagicwand",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MAGIC_WAND = ITEMS.register("beginner_magic_wand",
+            () -> new BeginnerMagicWandItem(new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> HIGHMAGICWAND = ITEMS.register("highmagicwand",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MID_MAGIC_WAND = ITEMS.register("advanced_magic_wand",
+            () -> new BeginnerMagicWandItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> HIGH_MAGIC_WAND = ITEMS.register("expert_magic_wand",
+            () -> new BeginnerMagicWandItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> MAGICORE = ITEMS.register("magicore",
             () -> new Item(new Item.Properties()));
@@ -44,11 +45,17 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAWMAGI = ITEMS.register("raw_magi",
             () -> new Item(new Item.Properties()));
-//    public static final RegistryObject<Item> MAGIC_WAND = ITEMS.register("magic_wand",
-//            () -> new BeginnerMagicWandItem(new Item.Properties().stacksTo(1)));
 
 
 
+//    public static final RegistryObject<Item> MAGICWAND = ITEMS.register("magicwand",
+//    () -> new Item(new Item.Properties().stacksTo(1)));
+
+    //    public static final RegistryObject<Item> MIDMAGICWAND = ITEMS.register("midmagicwand",
+//            () -> new Item(new Item.Properties()));
+//
+//    public static final RegistryObject<Item> HIGHMAGICWAND = ITEMS.register("highmagicwand",
+//            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
