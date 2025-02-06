@@ -19,9 +19,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-import static com.example.loot.ModLootModifiers.GLOBAL_LOOT_MODIFIERS;
-
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(Magik.MOD_ID)
 public class Magik {
     public static final String MOD_ID = "magik";
@@ -37,7 +34,7 @@ public class Magik {
         ModitemGroup.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
-        GLOBAL_LOOT_MODIFIERS.register(modEventBus);
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
