@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_magicore": {
+    "has_beginner_magic_wand": {
       "conditions": {
         "items": [
           {
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "magik:beginner_magic_wand"
+        "recipe": "magik:advanced_magic_wand"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_magicore"
+      "has_beginner_magic_wand"
     ]
   ],
   "rewards": {
     "recipes": [
-      "magik:beginner_magic_wand"
+      "magik:advanced_magic_wand"
     ]
   }
 }

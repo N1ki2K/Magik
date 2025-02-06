@@ -12,6 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -37,10 +38,53 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" B ")
                 .define('A', ModItems.MAGICINGOT.get())
                 .define('B', ModItems.MAGIWOOD.get())
-                .define('C', Items.AMETHYST_SHARD)
+                .define('C', ModItems.MAGICORE.get())
                 .define('D', Items.GOLD_INGOT)
-                .unlockedBy(getHasName(ModItems.MAGICINGOT.get()), has(ModItems.MAGICINGOT.get())).save(pRecipeOutput);
+                .unlockedBy(getHasName(ModItems.MAGICORE.get()), has(ModItems.MAGIC_WAND.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MAGICORE.get())
+                .pattern("ABA")
+                .pattern("BCB")
+                .pattern("ABA")
+                .define('A', Items.DIAMOND)
+                .define('B', Items.AMETHYST_SHARD)
+                .define('C', ModItems.MAGICESSENCE.get())
+                .unlockedBy(getHasName(ModItems.MAGICESSENCE.get()), has(ModItems.MAGICORE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MID_MAGIC_WAND.get())
+                .pattern("AAA")
+                .pattern("BCB")
+                .pattern("DED")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('B', Items.DIAMOND_BLOCK)
+                .define('C', ModItems.MAGIC_WAND.get())
+                .define('D', Items.GOLD_INGOT)
+                .define('E', ModItems.MAGIWOOD.get())
+                .unlockedBy(getHasName(ModItems.MAGIC_WAND.get()), has(ModItems.MAGIC_WAND.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MAGIBOOK.get())
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Items.BOOK)
+                .define('B', ModItems.MAGICORE.get())
+                .unlockedBy(getHasName(ModItems.MAGICORE.get()), has(ModItems.MAGICORE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MAGIWOOD.get())
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', ModItems.MAGICORE.get())
+                .unlockedBy(getHasName(ModItems.MAGICORE.get()), has(ModItems.MAGICORE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENCHANTEDWOOL.get())
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Items.WHITE_WOOL)
+                .define('B', ModItems.MAGICORE.get())
+                .unlockedBy(getHasName(ModItems.MAGICORE.get()), has(ModItems.MAGICORE.get())).save(pRecipeOutput);
 
 
 

@@ -3,25 +3,28 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "magik:magicingot"
+      "item": "minecraft:amethyst_shard"
     },
     "B": {
-      "item": "magik:magiwood"
+      "item": "minecraft:diamond_block"
     },
     "C": {
-      "item": "magik:magicore"
+      "item": "magik:beginner_magic_wand"
     },
     "D": {
       "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "magik:magiwood"
     }
   },
   "pattern": [
-    "ACA",
-    "DBD",
-    " B "
+    "AAA",
+    "BCB",
+    "DED"
   ],
   "result": {
     "count": 1,
-    "id": "magik:beginner_magic_wand"
+    "id": "magik:advanced_magic_wand"
   }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "magik:beginner_magic_wand"
+            "items": "magik:magicore"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "magik:beginner_magic_wand"
+        "recipe": "magik:magiwood"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "magik:beginner_magic_wand"
+      "magik:magiwood"
     ]
   }
 }
