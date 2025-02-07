@@ -36,6 +36,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> MAGIC_WOOD = registerBlock("magic_wood",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

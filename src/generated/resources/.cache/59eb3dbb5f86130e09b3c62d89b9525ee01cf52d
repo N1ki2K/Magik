@@ -1,4 +1,5 @@
-// 1.21.1	2025-02-05T11:07:55.0036928	Loot Tables
+// 1.21.1	2025-02-07T13:57:20.2444266	Loot Tables
+3c2ba0558c427ddb7748dc152c3860255f94bf33 data/magik/loot_table/blocks/magic_wood.json
 6a350da0a225962c189499767610b7a367d235d7 data/magik/loot_table/blocks/magi_block.json
 a57ea8d18e4ba0fdfe329cdb793bec442a4d2cab data/magik/loot_table/blocks/magi_deepslate_ore.json
 d8a32ec63456b0322f35856954ea865256bba522 data/magik/loot_table/blocks/magi_ore.json

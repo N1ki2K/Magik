@@ -7,7 +7,6 @@
   "item.magik.magicore": "Magi Core",
   "item.magik.enchantedwool": "Enchanted Wool",
   "item.magik.magiore": "Magic Ore",
-  "item.magik.magiwood": "Magic Wood",
   "item.magik.magicessence": "Magic Essence",
   "item.magik.magicingot": "Magic Ingot",
   "item.magik.raw_magi": "Raw Magi",
@@ -17,6 +16,7 @@
   "block.magik.raw_magi_block": "Raw Block of Magi",
   "block.magik.magi_ore": "Magi Ore",
   "block.magik.magi_deepslate_ore": "Deepslate Magi Ore",
+  "block.magik.magic_wood": "Magic Wood",
 
 
   "item.magik.magihelm": "Magic Helmet",

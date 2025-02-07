@@ -24,10 +24,10 @@ public class ModitemGroup {
                         output.accept(ModItems.MAGIBOOK.get());
                         output.accept(ModItems.MAGIORE.get());
                         output.accept(ModItems.MAGICORE.get());
-                        output.accept(ModItems.MAGIWOOD.get());
                         output.accept(ModItems.MAGICESSENCE.get());
                         output.accept(ModItems.MAGICINGOT.get());
                         output.accept(ModItems.RAWMAGI.get());
+//                        output.accept(ModItems.MAGIWOOD.get());
 //                        output.accept(ModItems.MAGICWAND.get());
 //                        output.accept(ModItems.MIDMAGICWAND.get());
 //                        output.accept(ModItems.HIGHMAGICWAND.get());
@@ -37,6 +37,8 @@ public class ModitemGroup {
                         output.accept(ModBlocks.RAW_MAGI_BLOCK.get());
                         output.accept(ModBlocks.MAGI_ORE.get());
                         output.accept(ModBlocks.MAGI_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.MAGIC_WOOD.get());
+
 
                     }).build());
 

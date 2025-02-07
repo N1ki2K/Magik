@@ -30,6 +30,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.MAGI_BLOCK.get());
         dropSelf(ModBlocks.RAW_MAGI_BLOCK.get());
+        dropSelf(ModBlocks.MAGIC_WOOD.get());
 
         this.add(ModBlocks.MAGI_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.MAGI_ORE.get(), ModItems.RAWMAGI.get(),1,3));

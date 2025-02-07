@@ -20,6 +20,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     blockWithItem(ModBlocks.MAGI_ORE);
     blockWithItem(ModBlocks.MAGI_DEEPSLATE_ORE);
+    blockWithItem(ModBlocks.MAGIC_WOOD);
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

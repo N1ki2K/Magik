@@ -1,7 +1,10 @@
-// 1.21.1	2025-02-06T20:18:31.1246099	Block States: magik
+// 1.21.1	2025-02-07T13:57:20.2429922	Block States: magik
+51b236fc4fa5033401285de1ddd6c1999190da1e assets/magik/blockstates/magic_wood.json
 ef5390b716743012daa8bc9b95d19ce12ff6038d assets/magik/blockstates/magi_deepslate_ore.json
 7f4d2fa045f5d0d2073115aed638f317b38810de assets/magik/blockstates/magi_ore.json
+48e43c706d90299b1118834c7b748a2f700c2782 assets/magik/models/block/magic_wood.json
 0636f07eb4f7c93dadb04652601fa10f7fc18694 assets/magik/models/block/magi_deepslate_ore.json
 cb49743654d163e6604298c1ca929a1078db099b assets/magik/models/block/magi_ore.json
+927123a4a4e7b5d4ed13a99e78aea6a43c2e36d7 assets/magik/models/item/magic_wood.json
 7ce9f30cfd0715a9669cc1e89d41140bbfe34a7e assets/magik/models/item/magi_deepslate_ore.json
 3a14cc39c038eecbeb9a9553c02890223af324ff assets/magik/models/item/magi_ore.json

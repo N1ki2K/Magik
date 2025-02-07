@@ -1,0 +1,50 @@
+{
+  "textures": {
+    "0": "magik:item/magiwood",
+    "particle": "magik:item/magiwood"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 1.25, 1.25],
+      "scale": [0.15039, 0.15039, 0.15039]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0, 1.25, 1.75],
+      "scale": [0.18555, 0.18555, 0.18555]
+    },
+    "firstperson_righthand": {
+      "rotation": [-7.96, 23.28, 7.09],
+      "translation": [3.25, 0, 0],
+      "scale": [0.36523, 0.36523, 0.36523]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-11.59, 39.58, 2.39],
+      "translation": [1.75, 0, 0.75],
+      "scale": [0.33398, 0.33398, 0.33398]
+    },
+    "ground": {
+      "scale": [0.24023, 0.24023, 0.24023]
+    },
+    "gui": {
+      "rotation": [18.91, 55.02, 3.06],
+      "scale": [0.53516, 0.53516, 0.53516]
+    },
+    "fixed": {
+      "scale": [0.41016, 0.41016, 0.41016]
+    }
+  }
+}
