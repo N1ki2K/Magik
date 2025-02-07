@@ -1,6 +1,59 @@
 {
-  "parent": "minecraft:item/generated",
+  "credit": "Made with Blockbench",
+  "texture_size": [32, 32],
   "textures": {
-    "layer0": "magik:item/magicore"
-  }
+    "2": "magik:item/magicore",
+    "particle": "magik:item/magicore"
+  },
+  "elements": [
+    {
+      "from": [6.75, 1.75, 5],
+      "to": [10.75, 5.75, 9],
+      "rotation": {"angle": 45, "axis": "z", "origin": [7.75, 1.75, 6]},
+      "faces": {
+        "north": {"uv": [3, 7, 5, 9], "texture": "#2"},
+        "east": {"uv": [7, 4, 9, 6], "texture": "#2"},
+        "south": {"uv": [5, 7, 7, 9], "texture": "#2"},
+        "west": {"uv": [7, 6, 9, 8], "texture": "#2"},
+        "up": {"uv": [9.5, 2, 7.5, 0], "texture": "#2"},
+        "down": {"uv": [9.5, 2, 7.5, 4], "texture": "#2"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [1, 7, 3.75]
+    },
+    "thirdperson_lefthand": {
+      "translation": [-1, 7.25, 3.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [-3.15, 21.07, 1.73],
+      "translation": [4.75, 4.75, 0]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-6.29, 14.25, 0.18],
+      "translation": [4.5, 3.25, 0]
+    },
+    "ground": {
+      "translation": [0, 4.5, 0]
+    },
+    "gui": {
+      "rotation": [-28.3, -22.02, -46.41],
+      "translation": [3, 3, 0],
+      "scale": [0.99414, 0.99414, 0.99414]
+    },
+    "fixed": {
+      "translation": [1.25, 5.25, 1],
+      "scale": [1.22461, 1.22461, 1.22461]
+    }
+  },
+  "groups": [
+    {
+      "name": "group",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": [0]
+    }
+  ]
 }
