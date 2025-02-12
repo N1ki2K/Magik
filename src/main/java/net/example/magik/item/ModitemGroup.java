@@ -27,10 +27,6 @@ public class ModitemGroup {
                         output.accept(ModItems.MAGICESSENCE.get());
                         output.accept(ModItems.MAGICINGOT.get());
                         output.accept(ModItems.RAWMAGI.get());
-//                        output.accept(ModItems.MAGIWOOD.get());
-//                        output.accept(ModItems.MAGICWAND.get());
-//                        output.accept(ModItems.MIDMAGICWAND.get());
-//                        output.accept(ModItems.HIGHMAGICWAND.get());
 
 
                         output.accept(ModBlocks.MAGI_BLOCK.get());
