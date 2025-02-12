@@ -2,6 +2,7 @@ package net.example.magik.item;
 
 import net.example.magik.Magik;
 import net.example.magik.item.Custom.BeginnerMagicWandItem;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -45,6 +46,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAWMAGI = ITEMS.register("raw_magi",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MAGIC_HELMET = ITEMS.register("magic_helmet",
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> MAGIC_CHESTPLATE = ITEMS.register("magic_chestplate",
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> MAGIC_LEGGINGS = ITEMS.register("magic_leggings",
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> MAGIC_BOOTS = ITEMS.register("magic_boots",
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
 
 
     public static void register(IEventBus eventBus) {

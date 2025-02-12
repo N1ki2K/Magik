@@ -19,10 +19,10 @@
   "block.magik.magic_wood": "Magic Wood",
 
 
-  "item.magik.magihelm": "Magic Helmet",
-  "item.magik.magichestplate": "Magic Chestplate",
-  "item.magik.magicpants": "Magic Legings",
-  "item.magik.magicboots": "Magic Boots"
+  "item.magik.magic_helmet": "Magic Helmet",
+  "item.magik.magic_chestplate": "Magic Chestplate",
+  "item.magik.magic_leggings": "Magic Legings",
+  "item.magik.magic_boots": "Magic Boots"
 
 
 }
