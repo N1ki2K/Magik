@@ -51,13 +51,13 @@ public class ModItems {
             () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
 
     public static final RegistryObject<Item> MAGIC_CHESTPLATE = ITEMS.register("magic_chestplate",
-            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
 
     public static final RegistryObject<Item> MAGIC_LEGGINGS = ITEMS.register("magic_leggings",
-            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
 
     public static final RegistryObject<Item> MAGIC_BOOTS = ITEMS.register("magic_boots",
-            () -> new Item(new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+            () -> new Item(new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
 
     public static void register(IEventBus eventBus) {

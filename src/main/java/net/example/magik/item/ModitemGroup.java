@@ -1,6 +1,7 @@
 package net.example.magik.item;
 import net.example.magik.Magik;
 import net.example.magik.block.ModBlocks;
+import net.example.magik.item.Custom.ModArmorMaterials;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,11 @@ public class ModitemGroup {
                         output.accept(ModBlocks.MAGI_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.MAGIC_WOOD.get());
 
+
+                        output.accept(ModItems.MAGIK_ARMOR_HELMET.get());
+                        output.accept(ModItems.MAGIK_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.MAGIK_ARMOR_LEGGINGS.get());
+                        output.accept(ModItems.MAGIK_ARMOR_BOOTS.get());
 
                     }).build());
 
