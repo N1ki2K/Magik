@@ -1,7 +1,6 @@
 package net.example.magik.item;
 import net.example.magik.Magik;
 import net.example.magik.block.ModBlocks;
-import net.example.magik.item.Custom.ModArmorMaterials;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
