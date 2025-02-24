@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:windswept_hills",
+    "minecraft:swamp"
+  ],
+  "features": "magik:magic_wood_placed",
+  "step": "vegetal_decoration"
+}

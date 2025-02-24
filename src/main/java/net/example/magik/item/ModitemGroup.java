@@ -36,10 +36,10 @@ public class ModitemGroup {
                         output.accept(ModBlocks.MAGIC_WOOD.get());
 
 
-                        output.accept(ModItems.MAGIK_ARMOR_HELMET.get());
-                        output.accept(ModItems.MAGIK_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.MAGIK_ARMOR_LEGGINGS.get());
-                        output.accept(ModItems.MAGIK_ARMOR_BOOTS.get());
+//                        output.accept(ModItems.MAGIK_ARMOR_HELMET.get());
+//                        output.accept(ModItems.MAGIK_ARMOR_CHESTPLATE.get());
+//                        output.accept(ModItems.MAGIK_ARMOR_LEGGINGS.get());
+//                        output.accept(ModItems.MAGIK_ARMOR_BOOTS.get());
 
                     }).build());
 

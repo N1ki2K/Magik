@@ -1,4 +1,7 @@
-// 1.21.1	2025-02-06T08:27:50.6234678	Registries
+// 1.21.1	2025-02-20T14:23:37.8366527	Registries
+a3c2c2d276323fabcb602fe771d3f254e6ecddb9 data/magik/forge/biome_modifier/add_magic_tree.json
 ce343203ada6d9c5f28f70c6e2d916aa66ddfca3 data/magik/forge/biome_modifier/add_magi_ore.json
+04ea3f25eb82f920cbd12f5288fbf098fee7cf01 data/magik/worldgen/configured_feature/magic_wood.json
 91e2ffd10de97bc0dabe1ccdbbe04e193e061109 data/magik/worldgen/configured_feature/magi_ore.json
+c5fe29c35ed157c08f1db7fd8284ae259e5188c4 data/magik/worldgen/placed_feature/magic_wood_placed.json
 034f60f25c0a15d6de7a619540f44419de0a9dd1 data/magik/worldgen/placed_feature/magi_ore_placed.json

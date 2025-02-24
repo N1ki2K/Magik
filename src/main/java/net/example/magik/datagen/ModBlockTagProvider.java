@@ -32,5 +32,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
 //        tag(BlockTags.NEEDS_DIAMOND_TOOL)
 //                .add(ModBlocks.example.get())
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MAGIC_WOOD.get());
     }
 }

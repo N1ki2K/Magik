@@ -1,3 +1,4 @@
-// 1.21.1	2025-02-05T11:51:18.6584552	Tags for minecraft:block mod id magik
+// 1.21.1	2025-02-20T13:57:36.0335022	Tags for minecraft:block mod id magik
+a52ee72709f00c797a1c4a68cf48819377f39547 data/minecraft/tags/block/logs_that_burn.json
 80058f60569ef348f6a496fd5ac824e3a0ef70b5 data/minecraft/tags/block/mineable/pickaxe.json
 80058f60569ef348f6a496fd5ac824e3a0ef70b5 data/minecraft/tags/block/needs_iron_tool.json

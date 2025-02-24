@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "magik:block/magic_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "magik:block/magic_wood"
+    },
+    "axis=z": {
+      "model": "magik:block/magic_wood_horizontal",
+      "x": 90
     }
   }
 }
