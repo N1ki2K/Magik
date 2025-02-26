@@ -32,10 +32,15 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_MAGI_BLOCK.get());
         dropSelf(ModBlocks.MAGIC_WOOD.get());
 
+        this.add(ModBlocks.MAGIC_WOOD_SAPLING.get(),
+                block -> createSingleItemTable(ModBlocks.MAGIC_WOOD_SAPLING.get()));
+
+
         this.add(ModBlocks.MAGI_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.MAGI_ORE.get(), ModItems.RAWMAGI.get(),1,3));
         this.add(ModBlocks.MAGI_DEEPSLATE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.MAGI_DEEPSLATE_ORE.get(), ModItems.RAWMAGI.get(),1,4));
+
     }
 
 

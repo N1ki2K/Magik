@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.feature.VegetationPatchFeature;
 import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
+import net.minecraft.world.level.levelgen.structure.placement.StructurePlacement;
 
 import java.util.List;
 
@@ -34,6 +35,7 @@ public class ModPlacedFeatures {
         register(context, MAGIC_WOOD_PLACED_KEY,configuredFeatures.getOrThrow(ModConfiguredFeatures.MAGIC_WOOD_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(1, 0.001f, 1),
                         ModBlocks.MAGIC_WOOD.get()));
+
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

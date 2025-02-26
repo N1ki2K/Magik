@@ -16,14 +16,14 @@
   "block.magik.raw_magi_block": "Raw Block of Magi",
   "block.magik.magi_ore": "Magi Ore",
   "block.magik.magi_deepslate_ore": "Deepslate Magi Ore",
-  "block.magik.magic_wood": "Magic Wood",
-
 
   "item.magik.magic_helmet": "Magic Helmet",
   "item.magik.magic_chestplate": "Magic Chestplate",
   "item.magik.magic_leggings": "Magic Legings",
-  "item.magik.magic_boots": "Magic Boots"
+  "item.magik.magic_boots": "Magic Boots",
 
+  "block.magik.magic_wood": "Magic Wood",
+  "block.magik.magic_wood_sapling": "Magic Wood Sapling"
 
 }
 
