@@ -5,7 +5,9 @@ import net.example.magik.block.ModBlocks;
 import net.example.magik.item.ModItems;
 import net.example.magik.item.ModitemGroup;
 import net.example.magik.worldgen.biome.ModTerrablender;
+import net.example.magik.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -19,6 +21,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
 
 @Mod(Magik.MOD_ID)
 public class Magik {
@@ -43,7 +46,7 @@ public class Magik {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
     }
 
 

@@ -37,12 +37,10 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<RotatedPillarBlock> MAGIC_WOOD = registerBlock("magic_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
-                    .strength(4f)));
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
 
     public static final RegistryObject<Block> MAGIC_WOOD_SAPLING = registerBlock("magic_wood_sapling",
-            () -> new SaplingBlock(ModTreeGrowers.MAGIC_WOOD,BlockBehaviour.Properties.of()
-                    .strength(4f)));
+            () -> new SaplingBlock(ModTreeGrowers.MAGIC_WOOD,BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
 
 

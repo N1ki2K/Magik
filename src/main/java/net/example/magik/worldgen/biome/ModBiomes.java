@@ -13,8 +13,9 @@ import net.minecraft.world.level.biome.*;
 import net.minecraft.world.level.levelgen.GenerationStep;
 
 public class ModBiomes {
-    public static final ResourceKey<Biome> MAGIC_WOOD_SPAWN_BIOME_TEST = ResourceKey.create(Registries.BIOME,
-            new ResourceLocation(Magik.MOD_ID, "magicwoodspawnbiometest"));
+    public static final ResourceKey<Biome> MAGIC_WOOD_SPAWN_BIOME_TEST = ResourceKey.create(
+            Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(Magik.MOD_ID, "magicwoodspawnbiometest"));
 
     public static void boostrap(BootstrapContext<Biome> context) {
         context.register(MAGIC_WOOD_SPAWN_BIOME_TEST, testBiome(context));
