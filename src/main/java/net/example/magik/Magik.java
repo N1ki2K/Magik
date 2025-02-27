@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.example.magik.block.ModBlocks;
 import net.example.magik.item.ModItems;
 import net.example.magik.item.ModitemGroup;
+import net.example.magik.worldgen.biome.ModTerrablender;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,7 @@ public class Magik {
         ModitemGroup.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
+        ModTerrablender.registerBiomes();
 
         modEventBus.addListener(this::addCreative);
 

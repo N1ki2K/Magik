@@ -25,6 +25,8 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> MAGI_ORE_PLACED_KEY = registerKey("magi_ore_placed");
 
     public static final ResourceKey<PlacedFeature> MAGIC_WOOD_PLACED_KEY = registerKey("magic_wood_placed");
+
+
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
@@ -33,8 +35,8 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(80))));
 
         register(context, MAGIC_WOOD_PLACED_KEY,configuredFeatures.getOrThrow(ModConfiguredFeatures.MAGIC_WOOD_KEY),
-                VegetationPlacements.treePlacement(PlacementUtils.countExtra(1, 0.001f, 1),
-                        ModBlocks.MAGIC_WOOD.get()));
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(1, 1f, 1),
+                        ModBlocks.MAGIC_WOOD_SAPLING.get()));
 
     }
 

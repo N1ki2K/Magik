@@ -2,6 +2,7 @@ package net.example.magik.worldgen;
 
 import net.example.magik.Magik;
 import net.example.magik.block.ModBlocks;
+import net.example.magik.worldgen.biome.ModBiomes;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -36,7 +37,7 @@ public class ModBiomeModifiers {
 
 
          context.register(ADD_MAGIC_WOOD, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                 HolderSet.direct(biomes.getOrThrow(Biomes.WINDSWEPT_HILLS), biomes.getOrThrow(Biomes.SWAMP)),
+                 HolderSet.direct(biomes.getOrThrow(ModBiomes.MAGIC_WOOD_SPAWN_BIOME_TEST)),
                  HolderSet.direct(placedFeature.getOrThrow(ModPlacedFeatures.MAGIC_WOOD_PLACED_KEY)),
                  GenerationStep.Decoration.VEGETAL_DECORATION));
 

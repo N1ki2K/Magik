@@ -27,7 +27,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 
         logBlock(ModBlocks.MAGIC_WOOD.get());
-            axisBlock(ModBlocks.MAGIC_WOOD.get(), blockTexture(ModBlocks.MAGIC_WOOD.get()));
+//            axisBlock(ModBlocks.MAGIC_WOOD.get(), blockTexture(ModBlocks.MAGIC_WOOD.get()));
 
     }
 

@@ -7,11 +7,11 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 3,
-            "weight": 49
+            "data": 1,
+            "weight": 0
           },
           {
-            "data": 4,
+            "data": 2,
             "weight": 1
           }
         ]
@@ -36,9 +36,9 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "magik:magic_wood",
+          "Name": "magik:magic_wood_sapling",
           "Properties": {
-            "axis": "y"
+            "stage": "0"
           }
         }
       }
